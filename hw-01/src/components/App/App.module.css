@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 428px;
+  height: 504px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e7ecf2;
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 252px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f0f3f6;
+}
