@@ -51,3 +51,12 @@ img {
   text-align: center;
   background-color: #e7ecf2;
 }
+
+.wrapper4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f0f3f6;
+}

@@ -5,6 +5,8 @@ import statisticalData from '../../data/statistical-data.json';
 import Statistics from '../Statistics/Statistics';
 import friends from '../../data/friends.json';
 import FriendList from '../FriendList/FriendList';
+import transactions from '../../data/transactions.json';
+import TransactionHistory from '../TransactionHistory/TransactionHistory';
 import styles from './App.module.css';
 
 function App() {
@@ -26,6 +28,9 @@ function App() {
       </div>
       <div className={styles.wrapper3}>
         <FriendList friends={friends} />
+      </div>
+      <div className={styles.wrapper4}>
+        <TransactionHistory transactions={transactions} />
       </div>
     </div>
   );
