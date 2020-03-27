@@ -2,7 +2,7 @@
   "name": "react-pack",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ig2108.github.io/react-pack",
+  "homepage": "https://ig2108.github.io/goit-react-hw",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
