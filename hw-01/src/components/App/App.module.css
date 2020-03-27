@@ -41,3 +41,13 @@ img {
   text-align: center;
   background-color: #f0f3f6;
 }
+
+.wrapper3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #e7ecf2;
+}
